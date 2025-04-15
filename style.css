@@ -1,0 +1,25 @@
+/* add image*/
+main{
+    font-size: 125%;
+    display: flex;
+    flex-direction: column;
+    flex-basis: 90vw;
+    align-items: center;
+    padding: 2rem;
+}
+.flex{
+    display: flex;
+    gap: 2rem;
+}
+section{
+    /*more here*/
+    text-align: center;
+}
+section span{
+    /*more here*/
+    text-decoration: underline;
+}
+/*havent added hr css*/
+button{
+    cursor: pointer;
+}
