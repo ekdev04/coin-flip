@@ -1,4 +1,7 @@
-/* add image*/
+img{
+    width: 140px;
+    height: auto;
+}
 main{
     font-size: 125%;
     display: flex;
@@ -6,6 +9,10 @@ main{
     flex-basis: 90vw;
     align-items: center;
     padding: 2rem;
+}
+body{
+    background-color: #ffeda5; 
+    color: #a0540a;
 }
 .flex{
     display: flex;
