@@ -1,11 +1,14 @@
 function runGame(x) {
-    let choiceresult= x
-    let randNum=Math.floor(Math.random() *2) +1;
+    let predictionOut = document.getElementById('prediction');
+    // more outputs here
+
+    let choiceresult = x;
+    let randNum = Math.floor(Math.random() * 2) + 1;
     let flipResult;
-        if (randNum ===1){
-            flipResult='tails';
+        if (randNum === 1){
+            flipResult = 'tails';
         }  else{
-            flipResult='heads';
+            flipResult = 'heads';
         };
     let gameResult;
         if (flipResult === choiceresult){
@@ -13,5 +16,8 @@ function runGame(x) {
         } else{
             gameResult="loss";
         };
-        
+
+        console.log(gameResult);
+
+    predictionOut.innerText = choiceresult;
 }
