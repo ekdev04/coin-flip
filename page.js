@@ -1,5 +1,7 @@
 function runGame(x) {
     let predictionOut = document.getElementById('prediction');
+    let flipOut = document.getElementById('flip');
+    let resultOut = document.getElementById('result');
     // more outputs here
 
     let choiceresult = x;
@@ -20,4 +22,6 @@ function runGame(x) {
         console.log(gameResult);
 
     predictionOut.innerText = choiceresult;
+    flipOut.innerText = flipResult;
+    resultOut.innerText = gameResult;
 }
