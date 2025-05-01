@@ -35,14 +35,14 @@ function runGame(x) {
     let resultOut = document.getElementById('result');
     resultOut.innerText = gameResult;
 
-    let gameCount = document.getElementById('count')
-    gameCount.innerText = gamesPlayed
+    let gameCount = document.getElementById('count');
+    gameCount.innerText = gamesPlayed;
 
-    let winCount = document. getElementById('wins')
-    winCount.innerText = gamesWon
+    let winCount = document. getElementById('wins');
+    winCount.innerText = gamesWon;
 
-    let lossCount = document. getElementById('losses')
-    lossCount.innerText = gamesLost
+    let lossCount = document. getElementById('losses');
+    lossCount.innerText = gamesLost;
 }
 
 function resetScore() {
