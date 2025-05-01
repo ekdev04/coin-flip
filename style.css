@@ -19,14 +19,16 @@ body{
     gap: 2rem;
 }
 section{
-    /*more here*/
     text-align: center;
 }
 section span{
-    /*more here*/
     text-decoration: underline;
 }
-/*havent added hr css*/
 button{
     cursor: pointer;
+    border: none;
+}
+#reset {
+    background-color: white;
+    color: #a0540a;
 }
